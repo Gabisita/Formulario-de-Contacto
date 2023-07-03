@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Contacto</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="head">
+            <h1>L<span>OG</span>O</h1>
+            <div class="list">
+                <nav>
+                    <ul>
+                        <a href="#">
+                            <li>Home</li>
+                        </a>
+                        <a href="#">
+                            <li>Plans</li>
+                        </a>
+                        <a href="#">
+                            <li>hello@tales.com</li>
+                        </a>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="todo">
+            <div class="info">
+                <h2>Tus tareas jamás fueron tan <span>faciles</span></h2>
+                <p>¿Alguna vez has estado abrumado con la cantidad de tareas que tienes que hacer y no tienes suficiente
+                    tiempo para completarlas todas? Si la respuesta es sí, ¡Estás en el lugar correcto!¡Nuestro servicio
+                    fue creado para ayudarte!</p>
+                <div class="boton">
+                    <button id="OpenFirstModal" class="contacta">Contáctanos</button>
+                    <button class="conoce">Conoce más</button>
+                </div>
+            </div>
+            <img src="./img/man pc.jpg" alt="Foto de hombre pc" class="img" width="500">
+        </div>
+    </main>
+    <section id="ContainerModal" class="ContainerModal">
+        <div class="Modal">
+            <div class="partedos">
+                <form class="form">
+                    <p class="texto">Send Mail To Us</p>
+                    <input class="asunto" type="text" placeholder="Asunto:">
+                    <textarea class="desc" placeholder="Descripción:"></textarea>
+                    <button type="submit" class="enviar">Enviar</button>
+                </form>
+                <img src="./img/girlpc.jpg" alt="chica con pc" class="ImageForm">
+                <button id="CloseButton" class="x">x</button>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<script src="./js/script.js"></script>
